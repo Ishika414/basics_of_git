@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343932D925CD79EA00E521CA /* IshikaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343932D825CD79EA00E521CA /* IshikaApp.swift */; };
+		343932DB25CD79EA00E521CA /* IshikaDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343932DA25CD79EA00E521CA /* IshikaDocument.swift */; };
+		343932DD25CD79EA00E521CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343932DC25CD79EA00E521CA /* ContentView.swift */; };
+		343932DF25CD7A1D00E521CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343932DE25CD7A1D00E521CA /* Assets.xcassets */; };
+		343932E225CD7A1D00E521CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 343932E125CD7A1D00E521CA /* Preview Assets.xcassets */; };
+		343932ED25CD7A2100E521CA /* IshikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343932EC25CD7A2100E521CA /* IshikaTests.swift */; };
+		343932F825CD7A2100E521CA /* IshikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343932F725CD7A2100E521CA /* IshikaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		343932E925CD7A2100E521CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 343932CD25CD79E900E521CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343932D425CD79E900E521CA;
+			remoteInfo = Ishika;
+		};
+		343932F425CD7A2100E521CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 343932CD25CD79E900E521CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 343932D425CD79E900E521CA;
+			remoteInfo = Ishika;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		343932D525CD79E900E521CA /* Ishika.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ishika.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		343932D825CD79EA00E521CA /* IshikaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikaApp.swift; sourceTree = "<group>"; };
+		343932DA25CD79EA00E521CA /* IshikaDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikaDocument.swift; sourceTree = "<group>"; };
+		343932DC25CD79EA00E521CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		343932DE25CD7A1D00E521CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		343932E125CD7A1D00E521CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		343932E325CD7A1D00E521CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343932E825CD7A2100E521CA /* IshikaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IshikaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		343932EC25CD7A2100E521CA /* IshikaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikaTests.swift; sourceTree = "<group>"; };
+		343932EE25CD7A2100E521CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		343932F325CD7A2100E521CA /* IshikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IshikaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		343932F725CD7A2100E521CA /* IshikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IshikaUITests.swift; sourceTree = "<group>"; };
+		343932F925CD7A2100E521CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		343932D225CD79E900E521CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343932E525CD7A2100E521CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343932F025CD7A2100E521CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		343932CC25CD79E900E521CA = {
+			isa = PBXGroup;
+			children = (
+				343932D725CD79E900E521CA /* Ishika */,
+				343932EB25CD7A2100E521CA /* IshikaTests */,
+				343932F625CD7A2100E521CA /* IshikaUITests */,
+				343932D625CD79E900E521CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		343932D625CD79E900E521CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				343932D525CD79E900E521CA /* Ishika.app */,
+				343932E825CD7A2100E521CA /* IshikaTests.xctest */,
+				343932F325CD7A2100E521CA /* IshikaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		343932D725CD79E900E521CA /* Ishika */ = {
+			isa = PBXGroup;
+			children = (
+				343932D825CD79EA00E521CA /* IshikaApp.swift */,
+				343932DA25CD79EA00E521CA /* IshikaDocument.swift */,
+				343932DC25CD79EA00E521CA /* ContentView.swift */,
+				343932DE25CD7A1D00E521CA /* Assets.xcassets */,
+				343932E325CD7A1D00E521CA /* Info.plist */,
+				343932E025CD7A1D00E521CA /* Preview Content */,
+			);
+			path = Ishika;
+			sourceTree = "<group>";
+		};
+		343932E025CD7A1D00E521CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				343932E125CD7A1D00E521CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		343932EB25CD7A2100E521CA /* IshikaTests */ = {
+			isa = PBXGroup;
+			children = (
+				343932EC25CD7A2100E521CA /* IshikaTests.swift */,
+				343932EE25CD7A2100E521CA /* Info.plist */,
+			);
+			path = IshikaTests;
+			sourceTree = "<group>";
+		};
+		343932F625CD7A2100E521CA /* IshikaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				343932F725CD7A2100E521CA /* IshikaUITests.swift */,
+				343932F925CD7A2100E521CA /* Info.plist */,
+			);
+			path = IshikaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		343932D425CD79E900E521CA /* Ishika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343932FC25CD7A2100E521CA /* Build configuration list for PBXNativeTarget "Ishika" */;
+			buildPhases = (
+				343932D125CD79E900E521CA /* Sources */,
+				343932D225CD79E900E521CA /* Frameworks */,
+				343932D325CD79E900E521CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ishika;
+			productName = Ishika;
+			productReference = 343932D525CD79E900E521CA /* Ishika.app */;
+			productType = "com.apple.product-type.application";
+		};
+		343932E725CD7A2100E521CA /* IshikaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343932FF25CD7A2100E521CA /* Build configuration list for PBXNativeTarget "IshikaTests" */;
+			buildPhases = (
+				343932E425CD7A2100E521CA /* Sources */,
+				343932E525CD7A2100E521CA /* Frameworks */,
+				343932E625CD7A2100E521CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				343932EA25CD7A2100E521CA /* PBXTargetDependency */,
+			);
+			name = IshikaTests;
+			productName = IshikaTests;
+			productReference = 343932E825CD7A2100E521CA /* IshikaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		343932F225CD7A2100E521CA /* IshikaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3439330225CD7A2100E521CA /* Build configuration list for PBXNativeTarget "IshikaUITests" */;
+			buildPhases = (
+				343932EF25CD7A2100E521CA /* Sources */,
+				343932F025CD7A2100E521CA /* Frameworks */,
+				343932F125CD7A2100E521CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				343932F525CD7A2100E521CA /* PBXTargetDependency */,
+			);
+			name = IshikaUITests;
+			productName = IshikaUITests;
+			productReference = 343932F325CD7A2100E521CA /* IshikaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		343932CD25CD79E900E521CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					343932D425CD79E900E521CA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					343932E725CD7A2100E521CA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 343932D425CD79E900E521CA;
+					};
+					343932F225CD7A2100E521CA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 343932D425CD79E900E521CA;
+					};
+				};
+			};
+			buildConfigurationList = 343932D025CD79E900E521CA /* Build configuration list for PBXProject "Ishika" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 343932CC25CD79E900E521CA;
+			productRefGroup = 343932D625CD79E900E521CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				343932D425CD79E900E521CA /* Ishika */,
+				343932E725CD7A2100E521CA /* IshikaTests */,
+				343932F225CD7A2100E521CA /* IshikaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		343932D325CD79E900E521CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343932E225CD7A1D00E521CA /* Preview Assets.xcassets in Resources */,
+				343932DF25CD7A1D00E521CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343932E625CD7A2100E521CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343932F125CD7A2100E521CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		343932D125CD79E900E521CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343932D925CD79EA00E521CA /* IshikaApp.swift in Sources */,
+				343932DB25CD79EA00E521CA /* IshikaDocument.swift in Sources */,
+				343932DD25CD79EA00E521CA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343932E425CD7A2100E521CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343932ED25CD7A2100E521CA /* IshikaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		343932EF25CD7A2100E521CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343932F825CD7A2100E521CA /* IshikaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		343932EA25CD7A2100E521CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 343932D425CD79E900E521CA /* Ishika */;
+			targetProxy = 343932E925CD7A2100E521CA /* PBXContainerItemProxy */;
+		};
+		343932F525CD7A2100E521CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 343932D425CD79E900E521CA /* Ishika */;
+			targetProxy = 343932F425CD7A2100E521CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		343932FA25CD7A2100E521CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		343932FB25CD7A2100E521CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		343932FD25CD7A2100E521CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ishika/Preview Content\"";
+				DEVELOPMENT_TEAM = TBC98V958J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ishika/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.close.Ishika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		343932FE25CD7A2100E521CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ishika/Preview Content\"";
+				DEVELOPMENT_TEAM = TBC98V958J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Ishika/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.close.Ishika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3439330025CD7A2100E521CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBC98V958J;
+				INFOPLIST_FILE = IshikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.close.IshikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishika.app/Ishika";
+			};
+			name = Debug;
+		};
+		3439330125CD7A2100E521CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBC98V958J;
+				INFOPLIST_FILE = IshikaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.close.IshikaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ishika.app/Ishika";
+			};
+			name = Release;
+		};
+		3439330325CD7A2100E521CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBC98V958J;
+				INFOPLIST_FILE = IshikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.close.IshikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ishika;
+			};
+			name = Debug;
+		};
+		3439330425CD7A2100E521CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TBC98V958J;
+				INFOPLIST_FILE = IshikaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.close.IshikaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ishika;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		343932D025CD79E900E521CA /* Build configuration list for PBXProject "Ishika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343932FA25CD7A2100E521CA /* Debug */,
+				343932FB25CD7A2100E521CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343932FC25CD7A2100E521CA /* Build configuration list for PBXNativeTarget "Ishika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				343932FD25CD7A2100E521CA /* Debug */,
+				343932FE25CD7A2100E521CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343932FF25CD7A2100E521CA /* Build configuration list for PBXNativeTarget "IshikaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3439330025CD7A2100E521CA /* Debug */,
+				3439330125CD7A2100E521CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3439330225CD7A2100E521CA /* Build configuration list for PBXNativeTarget "IshikaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3439330325CD7A2100E521CA /* Debug */,
+				3439330425CD7A2100E521CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 343932CD25CD79E900E521CA /* Project object */;
+}
